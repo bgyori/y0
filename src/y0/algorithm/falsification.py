@@ -12,9 +12,9 @@ import pandas as pd
 from ananke.graphs import SG
 from tqdm import tqdm
 
-from .conditional_independencies import get_conditional_independencies
 from ..struct import DSeparationJudgement
 from ..util.stat_utils import cressie_read
+from .conditional_independencies import get_conditional_independencies
 
 
 class Falsifications(abc.Sequence):

@@ -28,8 +28,4 @@ exclude =
     .ipynb_checkpoints
 max-line-length = 120
 max-complexity = 20
-import-order-style = pycharm
-application-import-names =
-    y0
-    tests
 format = ${red}%(code)s${reset} ${cyan}%(path)s${reset}:${red_bold}%(row)d${reset} %(text)s

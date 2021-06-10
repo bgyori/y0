@@ -16,8 +16,8 @@ from pyparsing import (
     Suppress,
 )
 
-from .utils import probability_pe, qfactor_pe, variables_pe
 from ...dsl import Expression, Fraction, Product, Sum
+from .utils import probability_pe, qfactor_pe, variables_pe
 
 __all__ = [
     "parse_causaleffect",

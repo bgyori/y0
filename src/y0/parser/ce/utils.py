@@ -14,8 +14,8 @@ from pyparsing import (
     nums,
 )
 
-from ..craig.utils import _make_probability, _make_q, _unpack
 from ...dsl import Variable
+from ..craig.utils import _make_probability, _make_q, _unpack
 
 
 def _make_variable(_s, _l, tokens: ParseResults) -> Variable:
